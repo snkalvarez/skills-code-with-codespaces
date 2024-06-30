@@ -18,7 +18,7 @@
         "codespace.md",".devcontainer/devcontainer.json"
       ]
     }
-  },
+  }//,
   //crear comando para ejecutar el codigo bash de setup.sh sudo bash 
-  "postCreateCommand": "sudo bash .devcontainer/setup.sh"
+  //"postCreateCommand": "sudo bash .devcontainer/setup.sh"
 }
