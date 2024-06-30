@@ -21,11 +21,10 @@
   },
   "build": {
     "context": ".",
-    "dockerfile": "Dockerfile",
     "args": {
       "SOME_BUILD_ARG": "valor"
     }
   },
   //crear comando para ejecutar el codigo bash de setup.sh sudo bash 
-  "postCreateCommand": "sudo bash ../setup.sh"
+  "postCreateCommand": "sudo bash ./setup.sh"
 }
