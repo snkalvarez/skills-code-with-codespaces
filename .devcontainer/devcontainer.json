@@ -24,5 +24,5 @@
   },
   "runArgs": ["--init"],
   //crear comando para ejecutar el codigo bash de setup.sh sudo bash 
-  "postCreateCommand": "./setup.sh"
+  "postCreateCommand": "sudo bash ./setup.sh"
 }
