@@ -19,5 +19,5 @@
       ]
     }
   },
-  "postCreateCommand": "chmod +x ./setup.sh && ./setup.sh"
+  "postCreateCommand": "bash chmod +x ./setup.sh && ./setup.sh"
 }
