@@ -26,5 +26,5 @@
     }
   },
   //crear comando para ejecutar el codigo bash de setup.sh sudo bash 
-  "postCreateCommand": "bash ./setup.sh"
+  "postCreateCommand": "bash sudo apt-get update"
 }
