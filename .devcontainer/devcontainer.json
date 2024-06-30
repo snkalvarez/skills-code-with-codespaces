@@ -20,5 +20,5 @@
     }
   },
   //crear comando para ejecutar el codigo bash de setup.sh sudo bash 
-  "postCreateCommand": "bash echo '#ecribiendo en la consola' >> codespace.md"
+  "postCreateCommand": "echo '#ecribiendo en la consola' >> codespace.md"
 }
