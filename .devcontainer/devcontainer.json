@@ -20,5 +20,5 @@
     }
   },
   //crear comando para ejecutar el codigo bash de setup.sh sudo bash 
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install"
+  "postCreateCommand": "echo '#ecribiendo en la consola'"
 }
