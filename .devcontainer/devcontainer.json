@@ -2,7 +2,7 @@
   // Name this configuration
   "name": "Codespace for Scills!",
   //Use the base codespace image
-//  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
 
   "remoteUser": "codespace",
   "overrideCommand": false,
@@ -15,14 +15,8 @@
     },
     "codespaces": {
       "openFiles": [
-        "codespace.md"
+        "devcontainer.json"
       ]
-    }
-  },
-  "build": {
-    "context": ".",
-    "args": {
-      "SOME_BUILD_ARG": "valor"
     }
   },
   //crear comando para ejecutar el codigo bash de setup.sh sudo bash 
