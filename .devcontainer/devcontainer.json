@@ -18,6 +18,5 @@
         "codespace.md"
       ]
     }
-  },
-  "postCreateCommand": "bash chmod +x ./setup.sh && ./setup.sh"
+  }  
 }
