@@ -1,4 +1,5 @@
 #!/bin/bash
-# setup.sh
-# Agrega tus comandos de configuración aquí
-echo "Configurando tu entorno de desarrollo..."
+
+sudo apt-get update
+sudo apt-get install sl
+alias sl="/usr/games/sl"
